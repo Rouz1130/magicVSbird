@@ -3,29 +3,52 @@
   <head>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <title>Oink!</title>
+    <title>Tubbs!</title>
   </head>
   <body>
     <div class="container">
       <div class="jumbotron">
-        <h1><strong>Pig Vice!</strong></h1>
+        <h1><strong>Miami Dice</strong></h1>
       </div>
       <br>
-      <form id="player1">
-        <button type="submit" class="btn btn-success btn-lg">Player 1 Roll!</button>
-      </form>
-      <div>
-        <ul id="resultPlayer1">
-        </ul>
+      <div class="row">
+<!-- Player 1 -->
+        <div class="col-md-3">
+          <form id="player1">
+            <button type="submit" class="btn btn-info btn-lg">Don Roll</button>
+          </form>
+          <div>
+            <ul id="resultPlayer1">
+            </ul>
+          </div>
+          <form id="holdPlayer1">
+            <button type="submit" class="btn btn-info btn-lg">Hold</button>
+          </form>
+          <div>
+            <p>Total: <span class="totalPlayer1"></span></p>
+          </div>
+        </div>
+<!-- Player 2 -->
+        <div class="col-md-3">
+          <form id="player2">
+            <button type="submit" class="btn btn-info btn-lg">Tubbs Roll</button>
+          </form>
+          <div>
+            <ul id="resultPlayer2">
+            </ul>
+          </div>
+          <form id="holdPlayer2">
+            <button type="submit" class="btn btn-info btn-lg">Hold</button>
+          </form>
+          <div>
+            <p>Total: <span class="totalPlayer2"></span></p>
+          </div>
+        </div>
+<!-- Tubbs! -->
+      <div class="col-md-6">
+        <img src="img/vice.jpg" class="img-responsive img-rounded" alt="two 80's BAs" />
       </div>
-      <form id="holdPlayer1">
-        <button type="submit" class="btn btn-success btn-lg">Hold</button>
-      </form>
-
-
-
-
-      <img src="img/vice.jpg" class="img-responsive" alt="two 80's BAs" />
+    </div>
     </div>
     <script src="js/jquery-3.0.0.js"></script>
     <script src="js/scripts.js"></script>

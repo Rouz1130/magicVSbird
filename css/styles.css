@@ -15,6 +15,7 @@ img {
 
 }
 
-li {
+li, p {
   color: #ff99cc;
+  font-size: 2em;
 }

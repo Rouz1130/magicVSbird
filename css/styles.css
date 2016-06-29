@@ -7,3 +7,14 @@ body {
   color: #ff99cc;
   background-color: white;
 }
+
+img {
+  float:right;
+  height:50px
+  width:auto;
+
+}
+
+li {
+  color: #ff99cc;
+}

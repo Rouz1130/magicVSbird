@@ -1,6 +1,7 @@
 // business logic
 var dieRoll = '';
 var result = [];
+var total = 0
 function getRandomInt(min, max) {
   return Math.floor(Math.random() * (max - min)) + min;
 }
@@ -14,6 +15,12 @@ $(document).ready(function() {
     event.preventDefault();
     dieRoll = getRandomInt(1,7);
     result.push(dieRoll);
-    console.log(result);
+    $("#resultPlayer1").append("<li>" + dieRoll + "</li>")
   });
+
+  $("form#holdPlayer1").click(function(event) {
+    event.preventDefault();
+
+  });
+
 });

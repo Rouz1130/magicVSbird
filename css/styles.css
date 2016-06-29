@@ -1,3 +1,9 @@
 body {
   background-color: #6699ff;
 }
+
+.jumbotron {
+  text-align: center;
+  color: #ff99cc;
+  background-color: white;
+}

@@ -58,7 +58,7 @@ $(document).ready(function() {
     event.preventDefault();
     for (var i=0; i < result.length; i++) {
      totalPlayer1 += result[i];
-   } if (totalPlayer1 >= 10) {
+   } if (totalPlayer1 >= 100) {
       $(".totalPlayer1").text(totalPlayer1);
       $("#donWin").show();
       $("#player2").hide();
@@ -80,7 +80,7 @@ $(document).ready(function() {
     event.preventDefault();
     for (var i=0; i < result2.length; i++) {
     totalPlayer2 += result2[i];
-  } if (totalPlayer2 >= 10) {
+  } if (totalPlayer2 >= 100) {
     $(".totalPlayer2").text(totalPlayer2);
     $("#tubbsWin").show();
     $("#player1").hide();
@@ -96,4 +96,7 @@ $(document).ready(function() {
     $("#holdPlayer2").hide();
   }
   });
+    $(".totalPlayer1").text(totalPlayer1);
+    $(".totalPlayer2").text(totalPlayer2);
+
 });

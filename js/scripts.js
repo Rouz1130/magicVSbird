@@ -18,8 +18,15 @@ $(document).ready(function() {
     if(dieRoll === 1) {
       $("#bust1").show();
       $("#resultPlayer1").empty();
+      $("#player1").hide();
+      $("#player2").show();
+      $("#mainPhoto").hide();
+      $("#holdPlayer1").hide();
+      $("#holdPlayer2").show();
       return result = [];
     } else {
+      $("#bust2").hide();
+      $("#mainPhoto").show();
       result.push(dieRoll);
       $("#resultPlayer1").append("<li>" + dieRoll + "</li>")
     }
@@ -32,10 +39,17 @@ $(document).ready(function() {
     if(dieRoll === 1) {
       $("#bust2").show();
       $("#resultPlayer2").empty();
+      $("#player2").hide();
+      $("#player1").show();
+      $("#mainPhoto").hide();
+      $("#holdPlayer2").hide();
+      $("#holdPlayer1").show();
       return result2 = [];
     } else {
-    result2.push(dieRoll);
-    $("#resultPlayer2").append("<li>" + dieRoll + "</li>")
+      $("#mainPhoto").show();
+      $("#bust1").hide();
+      result2.push(dieRoll);
+      $("#resultPlayer2").append("<li>" + dieRoll + "</li>")
   }
   });
 
@@ -44,12 +58,20 @@ $(document).ready(function() {
     event.preventDefault();
     for (var i=0; i < result.length; i++) {
      totalPlayer1 += result[i];
-   } if (totalPlayer1 >= 100) {
+   } if (totalPlayer1 >= 10) {
       $(".totalPlayer1").text(totalPlayer1);
-      $("#win").show();
+      $("#donWin").show();
+      $("#player2").hide();
+      $("#mainPhoto").hide();
+      $("#player1").hide();
+      $("#holdPlayer1").hide();
     } else {
       result = [];
       $(".totalPlayer1").text(totalPlayer1);
+      $("#player1").hide();
+      $("#player2").show();
+      $("#holdPlayer2").show();
+      $("#holdPlayer1").hide();
     }
   });
 
@@ -58,15 +80,20 @@ $(document).ready(function() {
     event.preventDefault();
     for (var i=0; i < result2.length; i++) {
     totalPlayer2 += result2[i];
-  } if (totalPlayer2 >= 100) {
+  } if (totalPlayer2 >= 10) {
     $(".totalPlayer2").text(totalPlayer2);
-    $("#win").show();
+    $("#tubbsWin").show();
+    $("#player1").hide();
+    $("#mainPhoto").hide();
+    $("#player2").hide();
+    $("#holdPlayer2").hide();
   } else {
     result2 = [];
     $(".totalPlayer2").text(totalPlayer2);
+    $("#player2").hide();
+    $("#player1").show();
+    $("#holdPlayer1").show();
+    $("#holdPlayer2").hide();
   }
   });
-
-
-
 });

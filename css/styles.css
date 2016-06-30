@@ -13,10 +13,7 @@ body {
   float:right;
   height:50px
   width:auto;
-
 }
-
-
 
 li, p {
   font-size: 2em;
@@ -24,12 +21,40 @@ li, p {
 
 #bust1 {
   display:none;
+  float:right
+
 }
 
 #bust2 {
   display:none;
+  float:right;
 }
 
-#win {
+#donWin {
   display:none;
+  float:right;
+  text-align:right;
+}
+
+#tubbsWin {
+  display:none;
+  float:left;
+  text-align:left;
+}
+
+#player2 {
+  display:none;
+}
+
+
+#holdPlayer2 {
+  display:none;
+}
+
+#donWinButton {
+  float:right
+}
+
+#tubbsWinButton {
+  float:left;
 }

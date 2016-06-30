@@ -21,13 +21,12 @@ li, p {
 
 #bust1 {
   display:none;
-  float:right
-
+  text-align: center;
 }
 
 #bust2 {
   display:none;
-  float:right;
+  text-align: center;
 }
 
 #donWin {

@@ -1,5 +1,6 @@
 body {
   background-color: #6699ff;
+  color: #ff99cc;
 }
 
 .jumbotron {
@@ -8,14 +9,27 @@ body {
   background-color: white;
 }
 
-img {
+#imgMain {
   float:right;
   height:50px
   width:auto;
 
 }
 
+
+
 li, p {
-  color: #ff99cc;
   font-size: 2em;
+}
+
+#bust1 {
+  display:none;
+}
+
+#bust2 {
+  display:none;
+}
+
+#win {
+  display:none;
 }

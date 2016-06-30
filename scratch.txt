@@ -1,0 +1,9 @@
+// function Player(playOrder, result, total) {
+//   this.order = playOrder;
+//   this.result = result;
+//   this.total = total;
+// }
+//
+// Player.prototype.rollDie = function() {
+//   console.log("huh");
+// }

@@ -1,14 +1,14 @@
 # Vice-Roll
 
 
-#### _A dice rool game each player(up to two max} gets a turn and can choose to hold there number and allow for player 2 to take his turn. If player goes over score he busts, {Date of current version}_
+#### _A dice roll game each player(up to two max} gets a turn and can choose to hold there number and allow for player 2 to take his turn. If player goes over score he busts._
 
 #### By _**{Rouz Majlessi, Joel Waage}**_
 
 ## Setup/Installation Requirements
 
 * _Clone repo_
-* _In terminall run ii pig-dice.html_
+* _In terminal run ii vice-dice.html_
 
 
 

@@ -1,12 +1,12 @@
 body {
-  background-color: #6699ff;
-  color: #ff99cc;
+  background-color:#FDB927;
+  color: #008348;
 }
 
 .jumbotron {
   text-align: center;
-  color: #ff99cc;
-  background-color: white;
+  color: #552582;
+  background-color:#008348;
 }
 
 #imgMain {

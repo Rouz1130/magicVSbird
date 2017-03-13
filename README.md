@@ -3,12 +3,12 @@
 
 #### _A dice roll game each player(up to two max} gets a turn and can choose to hold there number and allow for player 2 to take his turn. If player goes over score he busts._
 
-#### By _**{Rouz Majlessi, Joel Waage}**_
+#### By _**{Rouz Majlessi}**_
 
 ## Setup/Installation Requirements
 
-* _Clone repo_
-* _In terminal run ii vice-dice.html_
+* _https://rouz1130.github.io/magicVSbird/bird-magic.html__
+
 
 
 
@@ -19,7 +19,7 @@
 |user can click ROLL and it shows the result | ROLL | =3 |
 |each time the dice is rolled, the dice sum is added and the total is displayed in current points | ROLL=(3,2,2)| = 7 |
 |if the dice lands on "1" the score added to Points Total is 0 and the turn goes to the next player | Roll=1 | 0pts |
-|if the player clicks PASS, "current points" is added to "points total" and turn goes to the next player| pass | PtsTtl = PtsTtl + CrtPts |
+
 
 
 
@@ -30,8 +30,8 @@ _Are there issues that have not yet been resolved that you want to let users kno
 
 ## Technologies Used
 
-_Javascript, Jquery, html_
+_Javascript, JQuery, HTML, CSS_
 ### License
 
 
-Copyright (c) 2016 **_{Rouz Majlessi, Joel Waage. Epicodus}_**
+Copyright (c) 2016 **_Rouz Majlessi Epicodus_**

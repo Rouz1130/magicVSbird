@@ -1,87 +1,85 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <title>Magic!</title>
-  </head>
-  <body>
-    <div class="container">
-      <div class="jumbotron">
-        <h1><strong>Magic vs Bird</strong></h1>
-      </div>
-      <br>
-      <div class="row">
-<!-- Player 1 -->
-        <div class="col-md-3">
-          <div>
-            <p>Bird Total: <span class="totalPlayer1"></span></p>
-          </div>
-          <form id="player1">
-            <button type="submit" class="btn btn-success btn-lg">Bird Roll</button>
-          </form>
-          <br>
-          <div>
-            <ul id="resultPlayer1">
-            </ul>
-          </div>
-          <br>
-          <form id="holdPlayer1">
-            <button type="submit" class="btn btn-success btn-lg">Hold</button>
-          </form>
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <title>Magic!</title>
+</head>
+<body>
+  <div class="container">
+    <br>
+    <div class="jumbotron">
+      <h1><strong>Magic vs Bird</strong></h1>
+    </div>
+    <br>
+    <div class="row">
+      <!-- Player 1 -->
+      <div class="col-md-3">
+        <div>
+          <p>Bird Total: <span class="totalPlayer1"></span></p>
         </div>
-<!-- Tubbs! -->
+        <form id="player1">
+          <button type="submit" class="btn btn-success btn-lg">Bird Roll</button>
+        </form>
+        <br>
+        <div>
+          <ul id="resultPlayer1">
+          </ul>
+        </div>
+        <br>
+        <form id="holdPlayer1">
+          <button type="submit" class="btn btn-success btn-lg">Hold</button>
+        </form>
+      </div>
+      <!-- Tubbs! -->
       <div class="col-md-6" id="mainPhoto">
         <img src="img/vice.jpg" class="img-responsive img-rounded" alt="two 80's BAs" id="imgMain"/>
       </div>
-<!-- Don Bust -->
-        <div id="bust1" class="col-md-6">
-          <img src="img/don.jpg" class="img-responsive img-rounded" alt="don's gonna getcha!" />
-          <h2>You got Schooled!!!</h2>
-        </div>
-<!-- Tubbs Bust -->
-      <!-- <div class="row"> -->
-        <div id="bust2" class="col-md-6">
-          <img src="img/tubbs.jpg" class="img-responsive img-rounded" alt="tubbs is gonna getcha!" />
-          <h2>In your Face!!</h2>
-        </div>
-      <!-- </div> -->
-<!-- Don Wins Image -->
-        <div id="donWin" class="col-md-6">
-          <img src="img/win.jpg" class="img-responsive img-rounded" alt="you saved Miami!!!!" />
-          <h1><strong>Bird Wins!!!</strong></h1>
-          <br>
-          <a href="bird-magic.html" class="btn btn-info btn-lg" id="donWinButton">Play Again</a>
+      <!-- Don Bust -->
+      <div id="bust1" class="col-md-6">
+        <img src="img/don.jpg" class="img-responsive img-rounded" alt="don's gonna getcha!" />
+        <h2>You got Schooled!!!</h2>
       </div>
-<!-- Tubbs Wins -->
+      <!-- Tubbs Bust -->
+      <!-- <div class="row"> -->
+      <div id="bust2" class="col-md-6">
+        <img src="img/tubbs.jpg" class="img-responsive img-rounded" alt="tubbs is gonna getcha!" />
+        <h2>In your Face!!</h2>
+      </div>
+      <!-- </div> -->
+      <!-- Don Wins Image -->
+      <div id="donWin" class="col-md-6">
+        <img src="img/win.jpg" class="img-responsive img-rounded" alt="you saved Miami!!!!" />
+        <h1><strong>Bird Wins!!!</strong></h1>
+        <br>
+        <a href="bird-magic.html" class="btn btn-info btn-lg" id="donWinButton">Play Again</a>
+      </div>
+      <!-- Tubbs Wins -->
       <div id="tubbsWin" class="col-md-6">
         <img src="img/tubbsWin.jpg" class="img-responsive img-rounded" alt="you saved Miami!!!!" />
         <h1><strong>Magic Wins!!!</strong></h1>
         <br>
         <a href="bird-magic.html" class="btn btn-warning btn-lg" id="winButton">Play Again</a>
       </div>
-
+      
       <!-- Player 2 -->
-              <div class="col-md-3">
-                <div>
-                  <p> Magic Total: <span class="totalPlayer2"></span></p>
-                </div>
-                <form id="player2">
-                  <button type="submit" class="btn btn-warning btn-lg">Magic Roll</button>
-                </form>
-                <br>
-                <div>
-                  <ul id="resultPlayer2">
-                  </ul>
-                </div>
-                <br>
-                <form id="holdPlayer2">
-                  <button type="submit" class="btn btn-warning btn-lg">Hold</button>
-                </form>
-              </div>
-
-
-
+      <div class="col-md-3">
+        <div>
+          <p> Magic Total: <span class="totalPlayer2"></span></p>
+        </div>
+        <form id="player2">
+          <button type="submit" class="btn btn-warning btn-lg">Magic Roll</button>
+        </form>
+        <br>
+        <div>
+          <ul id="resultPlayer2">
+          </ul>
+        </div>
+        <br>
+        <form id="holdPlayer2">
+          <button type="submit" class="btn btn-warning btn-lg">Hold</button>
+        </form>
+      </div>
     </div>
     <script src="js/jquery-3.0.0.js"></script>
     <script src="js/scripts.js"></script>

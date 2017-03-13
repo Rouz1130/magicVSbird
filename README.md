@@ -3,7 +3,7 @@
 
 #### _A dice roll game each player(up to two max} gets a turn and can choose to hold there number and allow for player 2 to take his turn. If player goes over score he busts._
 
-#### By _**{Rouz Majlessi}**_
+#### By _**Rouz Majlessi**_
 
 ## Setup/Installation Requirements
 

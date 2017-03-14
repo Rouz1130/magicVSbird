@@ -4,6 +4,82 @@ body {
 }
 
 .jumbotron {
+    margin-bottom: 50px;
+    background:url("../img/neww.png");
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.3em;
+    padding-top: 80px;
+    border-radius: 60px;
+}
+.button
+{
+
+background:#008348;
+color:white;
+font-weight:bold;
+font-size:15px;
+padding:10px 15px;
+border:none;
+margin:50px;
+cursor:pointer;
+
+-webkit-transition:-webkit-transform 1s,opacity 1s,background 1s,width 1s,height 1s,font-size 1s;
+
+-o-transition-property:width,height,-o-transform,background,font-size,opacity,color;
+-o-transition-duration:1s,1s,1s,1s,1s,1s,1s;
+
+-moz-transition-property:width, height, -moz-transform, background, font-size, opacity, color;
+-moz-transition-duration:1s,1s,1s,1s,1s,1s,1s;
+
+transition-property:width,height,transform,background,font-size,opacity;
+transition-duration:1s,1s,1s,1s,1s,1s;
+
+-webkit-border-radius:5px;
+border-radius:5px;
+
+box-shadow:0 0 2px rgba(0,0,0,0.5);
+
+text-shadow:0 0 5px rgba(255,255,255,0.5);
+
+display:inline-block;   /* It is important for the button to rotate*/
+}
+
+.button:hover
+{
+-moz-transform: rotate(360deg);
+-webkit-transform: rotate(360deg);
+-o-transform: rotate(360deg);
+transform: rotate(360deg);
+
+background:#008348;
+font-size:30px;
+color:#fff;
+}
+.btn-circle.btn-xl {
+  background-image: url("../img/bbb.jpg");
+  width: 88px;
+  height: 70px;
+  padding: 10px 16px;
+  font-size: 24px;
+  line-height: 1.33;
+  border-radius: 35px;
+}
+
+
+h1 {
+  text-align: inherit;
+  height: 28px;
+  text-shadow: green 0.1em 0.1em 0.1em;
+  animation-duration: 5s;
+  /*animation-name: slidein;*/
+  font-style:italic;
+  font-family: inherit;
+}
+
+.jumbotron {
   text-align: center;
   color: #552582;
   background-color:#008348;
@@ -33,12 +109,16 @@ li, p {
   display:none;
   float:right;
   text-align:right;
+  /*color: #FDB927; RGB: (253,185,39);
+  text-shadow: #552582 0.1em 0.1em 0.1em;*/
 }
 
 #tubbsWin {
   display:none;
   float:left;
   text-align:left;
+  /*color: #008348; RGB: (0,131,72);
+  text-shadow: black 0.1em 0.1em 0.1em;*/
 }
 
 #player2 {
@@ -52,6 +132,7 @@ li, p {
 
 #donWinButton {
   float:right
+
 }
 
 #tubbsWinButton {

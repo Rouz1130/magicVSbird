@@ -91,20 +91,27 @@ h1 {
   width:auto;
 }
 
-li, p {
+.totalPlayer1, .bird, li, p {
   font-size: 2em;
+  color: green;
+  text-shadow: white 0.1em 0.1em 0.1em;
+
 }
 
+.totalPlayer2, .m, li, h2  {
+  font-size: 2em;
+  color: yellow;
+  text-shadow: purple 0.1em 0.1em 0.1em;
+
+}
 #bust1 {
   display:none;
   text-align: center;
 }
-
 #bust2 {
   display:none;
   text-align: center;
 }
-
 #donWin {
   display:none;
   float:right;
@@ -112,7 +119,6 @@ li, p {
   /*color: #FDB927; RGB: (253,185,39);
   text-shadow: #552582 0.1em 0.1em 0.1em;*/
 }
-
 #tubbsWin {
   display:none;
   float:left;
@@ -120,21 +126,16 @@ li, p {
   /*color: #008348; RGB: (0,131,72);
   text-shadow: black 0.1em 0.1em 0.1em;*/
 }
-
 #player2 {
   display:none;
 }
-
-
 #holdPlayer2 {
   display:none;
 }
 
 #donWinButton {
   float:right
-
 }
-
 #tubbsWinButton {
   float:left;
 }
